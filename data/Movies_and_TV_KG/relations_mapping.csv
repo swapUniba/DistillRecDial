@@ -1,0 +1,16 @@
+relation_id,relation_name
+0,has_acting
+1,has_genre
+2,has_keyword
+3,has_crew
+4,has_directing
+5,has_production
+6,has_art
+7,has_editing
+8,has_writing
+9,has_visual effects
+10,has_sound
+11,has_costume & make-up
+12,has_camera
+13,has_lighting
+14,has_creator

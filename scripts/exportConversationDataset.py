@@ -475,7 +475,7 @@ class AmazonReviewProcessor:
             test_dataset: List of test data samples
         """
         # Create output directory if it doesn't exist
-        output_dir = os.path.join(self.data_path, 'llama3.1')
+        output_dir = os.path.join(self.data_path, 'distillrecdial')
         os.makedirs(output_dir, exist_ok=True)
         
         # Clean special token for filename
