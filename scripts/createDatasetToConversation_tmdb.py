@@ -602,7 +602,7 @@ class AmazonDatasetProcessor:
         self.sample_user_interactions()
         self.create_user_prompts()
         self.format_prompts_with_template(tokenizer_path)
-        #self.save_data()
+        self.save_data()
 
 
 def main():
