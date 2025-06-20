@@ -7,7 +7,7 @@ Human evaluation demonstrates that our dataset significantly outperforms widely 
 DistillRecDial exceeds GitHub storage quota, for this reason it is only available through Hugging Face: https://huggingface.co/datasets/planeB/DistillRecDial
 ## DistillRecDial Generation Scripts
 > [!TIP]
-To support researchers wanting to extend or adapt our approach we release the scripts used to generate the DistillRecDial dataset.
+To support researchers wanting to extend or adapt our approach, we release the scripts used to generate the DistillRecDial dataset.
 ### Setting Up the Environment
 1. Create a virtual environment (Python 3.10.12 recommended):
    ```sh
@@ -20,7 +20,9 @@ To support researchers wanting to extend or adapt our approach we release the sc
    ```
 ### Data Sources
 The data sources needed to re-build DistillRecDial from scratch are:
-* Amazon Reviews Dataset 2023: Movies and TV category (downloaded through the createDatasetToConversation_tmdb.py)
+* Amazon Reviews Dataset 2023: Movies and TV category (downloaded through the createDatasetToConversation_tmdb.py). The original raw files are available in the Amazon Reviews 2023 Hugging Face repository:
+    * https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023/blob/main/raw/review_categories/Movies_and_TV.jsonl
+    * https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023/blob/main/raw/meta_categories/meta_Movies_and_TV.jsonl
 * Item features sourced from TMDB: available in the Hugging Face repository as tmdb_movies.json
 * Visual captions from VLM: already included in tmdb_movies.json
 ### Main Scripts
