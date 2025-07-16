@@ -39,3 +39,20 @@ The data sources needed to re-build DistillRecDial from scratch are:
   Converts the DistillRecDial dataset into the CRSLab-compatible format.
 - **`EntityMentionDetector.py`**  
   Supports `ConvertToCrsLab.py` by performing Named Entity Recognition (NER) on dialogue content.
+
+---
+
+```bibtex
+@inproceedings{Martina2025DistillRecDial,
+  author    = {Martina, Alessandro Francesco Maria and Petruzzelli, Alessandro and Musto, Cataldo and de Gemmis, Marco and Lops, Pasquale and Semeraro, Giovanni},
+  title     = {{DistillRecDial}: A Knowledge-Distilled Dataset Capturing User Diversity in Conversational Recommendation},
+  booktitle = {Proceedings of the Nineteenth ACM Conference on Recommender Systems (RecSys '25)},
+  year      = {2025},
+  month     = {September},
+  day       = {22--26},
+  address   = {Prague, Czech Republic},
+  publisher = {ACM},
+  doi       = {10.1145/3705328.3748161},
+  isbn      = {979-8-4007-1364-4/2025/09}
+}
+```
